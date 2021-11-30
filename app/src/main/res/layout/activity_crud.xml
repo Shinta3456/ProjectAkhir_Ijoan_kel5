@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crud">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-12dp"
+        android:src="@drawable/bgcrud"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<ImageButton
+    android:layout_width="37dp"
+    android:layout_height="27dp"
+    android:scaleType="fitXY"
+    android:layout_marginTop="10dp"
+    android:src="@drawable/arrowback"
+    android:background="#124F62"
+    android:layout_marginLeft="11dp"/>
+
+        <ImageButton
+            android:id="@+id/button31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bginsertcrud"
+            android:background="#124F62"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="21dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tambah data"
+            android:textColor="@color/white"
+            android:layout_marginTop="42dp"
+            android:layout_marginLeft="-106dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Shinta"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:textSize="25dp"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="34dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 4"
+            android:textColor="#67DFE7"
+            android:layout_marginLeft="-72dp"
+            android:layout_marginTop="56dp"/>
+        <ImageView
+            android:layout_width="39dp"
+            android:layout_height="37dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/user"
+            android:layout_marginTop="87dp"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="324dp"
+            android:layout_height="154dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/buttoncrud"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="160dp"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bungacrud"
+            android:background="#EFF6F9"
+            android:layout_marginLeft="-307dp"
+            android:layout_marginTop="170dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp.37.000"
+            android:id="@+id/nominal1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="14dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jateng"
+            android:id="@+id/nominal2"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="-65dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aglaonema"
+            android:id="@+id/nominal3"
+            android:textColor="#69E784"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginTop="215dp"
+            android:layout_marginLeft="-35dp"/>
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="30dp"
+            android:id="@+id/blihat"
+            android:text="lihat"
+            android:textSize="9dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="31dp"/>
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="30dp"
+            android:id="@+id/bedit"
+            android:text="edit"
+            android:textSize="9dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="-65dp"/>
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="30dp"
+            android:id="@+id/bhapus"
+            android:text="hapus"
+            android:textSize="8dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="-65dp"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

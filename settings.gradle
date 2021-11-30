@@ -1,0 +1,2 @@
+rootProject.name = "IJO"
+include ':app'
